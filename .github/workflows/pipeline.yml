@@ -1,0 +1,14 @@
+name: hello-world
+on: push
+jobs:
+  my-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World!"
+      - name: Welcome
+        run: echo "Welcome to Great Magic Show...!!"
+      - name: Workshop
+        run: echo "DevOps Workshop with Sandy sir...!"
+      - name: Output
+        run: echo "Knowledge With Fun...!"
